@@ -19,3 +19,7 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 2
 python -m pip install -U pip
 
 pip install rpi-rfm69
+pip install adafruit-circuitpython-bmp280
+
+# GPS lib
+pip install pynmea2
