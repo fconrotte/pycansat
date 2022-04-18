@@ -9,6 +9,7 @@ sudo raspi-config nonint do_camera 0
 sudo raspi-config nonint do_ssh 0
 sudo raspi-config nonint do_spi 0
 sudo raspi-config nonint do_i2c 0
+sudo rfkill block bluetooth
 
 sudo apt install -y samba python3 idle3
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
