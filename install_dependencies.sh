@@ -11,8 +11,7 @@ sudo raspi-config nonint do_vnc 1
 sudo raspi-config nonint do_spi 1
 sudo raspi-config nonint do_i2c 1
 
-sudo apt install samba
-sudo apt install python3 idle3
+sudo apt install -y samba python3 idle3
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 2
 
